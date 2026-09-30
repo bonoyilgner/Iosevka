@@ -41,6 +41,10 @@ inherits = "default-calt"   # Optional; inherits an existing ligation set
 disables = []               # Optional; disable specific ligation groups, overrides inherited ligation set
 enables  = []               # Optional; enable specific ligation groups, overrides inherited ligation set
 
+[[build-plans.iosevka-custom.ligations.rules]]
+match = '<>'
+replace-with = 'ne'
+
 # End ligation section
 ###################################################################################################
 
